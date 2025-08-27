@@ -1,6 +1,6 @@
 
 
-function NavBar({ }: { setTheme: (theme: string) => void }) {
+function NavBar() {
   return (
     <div className="navbar bg-primary-500 shadow-xl">
       <div className="flex-1">
