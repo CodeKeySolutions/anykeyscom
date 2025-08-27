@@ -1,21 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero';
 import ProductGrid from './ProductGrid';
-function App() {
-  const [theme, setTheme] = useState('light');
 
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-  }, [theme]);
-
-  return (
-    <div>
-      <NavBar setTheme={setTheme} />
-      <Hero />
-      <ProductGrid />
-    </div>
-  );
-}
 
 function NavBar({ setTheme }: { setTheme: (theme: string) => void }) {
   return (
