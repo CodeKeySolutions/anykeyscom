@@ -19,7 +19,7 @@ function App() {
       <title>AnyKeys - Unlock Your Potential</title>
       <meta name="description" content="Premium keys and services at AnyKeys." />
       </Helmet>
-      <NavBar setTheme={() => {}} />
+      <NavBar />
       <Hero />
       <ProductGrid />
     </Suspense>
