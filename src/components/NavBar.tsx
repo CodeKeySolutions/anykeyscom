@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import Hero from './Hero';
-import ProductGrid from './ProductGrid';
 
 
-function NavBar({ setTheme }: { setTheme: (theme: string) => void }) {
+function NavBar({ }: { setTheme: (theme: string) => void }) {
   return (
     <div className="navbar bg-primary-500 shadow-xl">
       <div className="flex-1">
