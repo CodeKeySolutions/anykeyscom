@@ -1,0 +1,42 @@
+import React, { useState, useEffect } from 'react';
+import Hero from './Hero';
+import ProductGrid from './ProductGrid';
+function App() {
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  return (
+    <div>
+      <NavBar setTheme={setTheme} />
+      <Hero />
+      <ProductGrid />
+    </div>
+  );
+}
+
+function NavBar({ setTheme }: { setTheme: (theme: string) => void }) {
+  return (
+    <div className="navbar bg-primary-500 shadow-xl">
+      <div className="flex-1">
+        <a className="btn btn-ghost normal-case text-xl" href="/">AnyKeys</a>
+      </div>
+      {/* <div className="flex-none">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <details>
+              <summary>Theme</summary>
+              <ul className="p-2 bg-base-200">
+                <li><a onClick={() => setTheme('light')}>Light</a></li>
+                <li><a onClick={() => setTheme('dark')}>Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div> */}
+    </div>
+  );
+}
+export default NavBar;
