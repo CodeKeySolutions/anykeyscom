@@ -1,13 +1,16 @@
 function Hero() {
   return (
-    <div className="hero min-h-[25vh] bg-primary-800 w-100">
-      <div className="hero-content text-center">
-        <div className="">
-          <h1 className="text-5xl font-bold">Welcome to Anykeys</h1>
-          <p className="py-6"></p>
-        </div>
+    <section className="relative min-h-[40vh] flex items-center justify-center bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 text-white overflow-hidden">
+      <div className="absolute inset-0 opacity-20 bg-[url('../public/images/hero-bg.jpg')] bg-cover bg-center pointer-events-none" />
+      <div className="relative z-10 text-center px-4">
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg mb-4">
+          Welcome to <span className="text-blue-300">Anykeys</span>
+        </h1>
+        <p className="max-w-xl mx-auto text-lg md:text-xl font-medium opacity-90">
+          Discover projects, tools, and communities built for you.
+        </p>
       </div>
-    </div>
+    </section>
   );
 }
 
