@@ -26,8 +26,9 @@ function Contact() {
             <input type="text" id="name" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" />
           </div> */}
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email:</label>
-            <a href="mailto:info@bloodbullets.com" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+            {/* <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email:</label> */}
+            <a href="mailto:info@bloodbullets.com" className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold shadow hover:bg-blue-700 transition-colors">
+              Send mail
               {/* <input type="email" id="email" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" /> */}
             </a>
           </div>
