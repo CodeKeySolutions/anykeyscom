@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 const ProductGrid = React.lazy(() => import('./components/ProductGrid'));
 const Hero = React.lazy(() => import('./components/Hero'));
 const NavBar = React.lazy(() => import('./components/NavBar'));
+const Contact = React.lazy(() => import('./components/Contact'));
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <NavBar />
       <Hero />
       <ProductGrid />
+      <Contact />
     </Suspense>
   );
 }
