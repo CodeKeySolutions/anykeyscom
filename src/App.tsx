@@ -12,8 +12,9 @@ function App() {
   return (
      <Suspense fallback={<div>Loading...</div>}>
       <Helmet>
-      <title>AnyKeys - Unlock Your Potential</title>
-      <meta name="description" content="Premium keys and services at AnyKeys." />
+        <title>AnyKeys - Discover</title>
+        <meta name="description" content="Discover project, tools and communities by gamers for gamers!" />
+        <meta name='keywords'  content='anykeys, text-to-speech, text to speech, text to voice, discord community, text-based webgame, webgames' />
       </Helmet>
       <NavBar />
       <Hero />

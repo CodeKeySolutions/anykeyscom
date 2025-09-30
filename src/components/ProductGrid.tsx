@@ -1,8 +1,8 @@
 function ProductGrid() {
   const products = [
-    { id: 1, type: 'Game', name: 'Bloodbullets.com',url:'https://bloodbullets.com', image: '/images/bloodbullets.jpg',price: '<1000$', description: 'Text-based gangster rpg game' },
-    { id: 2, type: 'Community', name:'Keys', url: 'https://discord.gg/VBkGzG8AS9', image: '/images/discord.jpg', price: '<1000$', description: 'Community-driven key' },
-      { id: 3, type: 'Tool', name:'Text to Speech', url: 'https://voice.any-keys.com', image: '/images/voice.jpg', price: '<1000$', description: 'Free text-to-speech tool' },
+    { id: 1, type: 'Game', name: 'Bloodbullets.com',url:'https://bloodbullets.com', image: '/images/bloodbullets.jpg',price: '<1000$', description: 'Online text-based mafia rpg webgame' },
+    { id: 2, type: 'Community', name:'Keys', url: 'https://discord.gg/VBkGzG8AS9', image: '/images/discord.jpg', price: '<1000$', description: 'Community-driven discord !' },
+    { id: 3, type: 'Tool', name:'Text to Speech', url: 'https://voice.any-keys.com', image: '/images/voice.jpg', price: '<1000$', description: 'Free text-to-speech tool' },
   ];
 
   return (
