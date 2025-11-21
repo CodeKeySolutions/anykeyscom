@@ -1,7 +1,7 @@
 
 function Contact() {
   return (
-    <section className="py-10 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+    <section id="contact" className="py-10 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
       <div className="max-w-6xl mx-auto px-4">
         {/* <h2 className="text-4xl font-extrabold text-gray-900 mb-8 text-center tracking-tight">Contact Us</h2> */}
           <div className="mb-4">
