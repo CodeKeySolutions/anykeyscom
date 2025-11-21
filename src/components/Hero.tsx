@@ -7,7 +7,9 @@ function Hero() {
           Welcome to <span className="text-blue-300">Anykeys</span>
         </h1>
         <p className="max-w-xl mx-auto text-lg md:text-xl font-medium opacity-90">
-          Discover project, tools and communities build for gamers or content creators!
+          Discover our projects, tools, and community resources designed to enhance your digital experience.
+          If you into gaming, development, or just looking for cool stuff, you've come to the right place!
+          we build cool stuff for you!
         </p>
       </div>
     </section>
