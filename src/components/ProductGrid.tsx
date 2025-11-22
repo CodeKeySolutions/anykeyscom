@@ -5,7 +5,7 @@ function ProductGrid() {
     { id: 3, type: 'Tool', name:'Text to Speech', url: 'https://voice.any-keys.com', image: '/images/voice.jpg', price: '<1000$', description: 'Free text-to-speech tool' },
     { id: 4, type: 'Store', name:'Fivem script services', url: 'https://codekey.tebex.io', image: '/images/store.png', price: '<100$', description: 'For all your fivem scripts!' },
     
-    { id: 5, type: 'Game Mod', name:'Fivem roleplay script', url: 'https://codekey.tebex.io/package/phone', image: '/images/script1.png', price: '<100$', description: 'Fivem roleplay script!' },
+    { id: 5, type: 'Game Mod', name:'Fivem roleplay script', url: 'https://codekey.tebex.io/package/phone', image: '/images/script1.png', price: '<30$', description: 'Fivem roleplay script!' },
  
   ];
 
